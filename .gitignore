@@ -3,3 +3,5 @@
 .vscode
 test_outputs
 test_things
+.python-version
+*__pycache__

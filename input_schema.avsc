@@ -1,236 +1,98 @@
 {
-  "name": "input_schema.avsc",
+  "name": "input_schema",
   "type": "record",
   "fields": [
     {
       "name": "Id",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "identifier",
-      "protectedClass": false,
-      "driftCandidate": false,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "prediction",
-      "type": "float",
-      "dataClass": "numerical",
-      "role": "score",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": true
+      "type": "float"
     },
     {
       "name": "SalePrice",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "label",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": true
+      "type": "int"
     },
     {
       "name": "eOverallQual_TotalSF",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "OverallQual",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "eTotalSF",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "GrLivArea",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "ExterQual",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "KitchenQual",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "GarageCars",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "eTotalBathrooms",
-      "type": "float",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "float"
     },
     {
       "name": "BsmtQual",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "GarageArea",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "TotalBsmtSF",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "GarageFinish",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "YearBuilt",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "eHasGarage",
-      "type": "boolean",
-      "dataClass": "categorical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "boolean"
     },
     {
       "name": "TotRmsAbvGrd",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "eHasRemodeling",
-      "type": "boolean",
-      "dataClass": "categorical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "boolean"
     },
     {
       "name": "FireplaceQu",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "MasVnrArea",
-      "type": "int",
-      "dataClass": "numerical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "int"
     },
     {
       "name": "eHasFireplace",
-      "type": "boolean",
-      "dataClass": "categorical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "boolean"
     },
     {
       "name": "eHasBsmt",
-      "type": "boolean",
-      "dataClass": "categorical",
-      "role": "predictor",
-      "protectedClass": false,
-      "driftCandidate": true,
-      "specialValues": [],
-      "scoringOptional": false
+      "type": "boolean"
     }
   ]
 }
